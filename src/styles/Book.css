@@ -1,0 +1,46 @@
+.book__card {
+  min-width: 200px;
+  min-height: 380px;
+  background-size: 115% !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  &:first-of-type {
+    background-size: 100% !important;
+    background-position: center 17px !important;
+  }
+}
+
+.book__card-price {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 124px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ff9606;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.book__card-title {
+  padding: 0 40px;
+  position: absolute;
+  top: 265px;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.book__card-subtitle {
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  font-size: 10px;
+  padding: 0 25px;
+}
